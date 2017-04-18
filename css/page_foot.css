@@ -1,0 +1,103 @@
+/*通用*/
+body {
+	font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#666;
+    margin:0px;
+    padding:0px;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd {
+    margin:0px;
+    padding:0px;
+    border:none;
+    list-style:none;
+}
+a{text-decoration:none;
+	
+}
+input {border:none;}
+.lf   {float:left;}
+.rt  {float:right;}
+.clear  {clear:both;}
+/*整体布局*/
+
+#footer {
+    height:295px;
+	margin:0px auto;
+	background:url(../img/foot_dhbj.png) 0 0;
+	font-weight:bold;
+	
+}
+#footer_box{
+	width:1000px;
+	overflow:hidden;
+	margin:0 auto;
+	height:295px;
+}
+/*页脚*/
+
+.txtMarquee-top{ width:295px;  overflow:hidden; position:relative;  border:1px solid transparent;  float:left;margin-top:35px; }
+.txtMarquee-top .hd{ overflow:hidden;  height:30px; padding:0 10px;  }
+.txtMarquee-top .hd .prev,.txtMarquee-top .hd .next{ display:block;  width:9px; height:5px; float:right; margin-right:5px; margin-top:10px;  overflow:hidden;
+			 cursor:pointer; background:url("../images/arrow.png") 0 -100px no-repeat;}
+.txtMarquee-top .hd .next{ background-position:0 -140px;  }
+.txtMarquee-top .hd .prevStop{ background-position:-60px -100px;  }
+.txtMarquee-top .hd .nextStop{ background-position:-60px -140px;  }
+.txtMarquee-top .bd{ padding:15px;  }
+.txtMarquee-top .infoList li{  line-height:30px;   }
+.txtMarquee-top .infoList li .date{ float:right; color:#999;  }
+
+.txtMarquee-top .hd p{
+	float:left;
+	width:300px;
+	margin-top:6px;
+	margin-left:5px;
+	font-style:italic;
+	font-size:20px;
+}
+#footer_box #links ul{
+	float:left;
+	width:300px;
+	margin-left:20px;
+}
+
+#footer_box #links ul li{
+	margin-top:15px;
+}
+
+#footer #links{
+	width:700px;
+	height:195px;
+	float:left;}
+#footer #links ul{
+	float:left;
+	width:150px;
+	margin-top:45px;
+
+}
+#footer #copyright{
+	float:left;
+	height:100px;
+	width:472px;
+}
+#footer #copyright p{
+	margin-top:70px;
+}
+#footer #logo{
+	float:left;
+	height:100px;
+	width:228px;
+}
+#footer_box #big_left{
+	float:left;
+	width:500px;
+	height:295px;
+}
+#footer_box #big_right{
+	float:right;
+	width:500px;
+	height:295px;
+}
+
+
+
+

@@ -1,0 +1,231 @@
+/*通用*/
+body {
+	font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#666;
+    margin:0px;
+    padding:0px;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd {
+    margin:0px;
+    padding:0px;
+    border:none;
+    list-style:none;
+}
+a{text-decoration:none;
+	
+}
+input {border:none;}
+.lf   {float:left;}
+.rt  {float:right;}
+.clear  {clear:both;}
+/*中间部分*/
+#xiaomain{
+	width:1000px;
+    height:465px;
+	margin:20px auto;
+	overflow:hidden;
+	
+}
+#nav{
+	font-size:15px;
+	font-weight:bold;
+	color:#2d2e2f;
+	background-color:#f1f4f6;
+	width:1000px;
+	line-height:50px;
+	float:left;
+}
+#intro_box{
+	width:1000px;
+	height:120px;
+	float:left;
+	border-bottom:1px dashed black;
+}
+#intro_head{
+	
+	
+	border-right:2px solid #256cc9;
+	float:left;
+	
+	margin:10px 10px;
+	width:98px;
+	height:100px;
+	
+
+}
+#intro_box #intro_head p{
+	float:left;
+	margin:8px 20px;
+	font-size:25px;
+	font-weight:bold;
+	color:#256cc9;
+}
+#intro_box img{
+	float:left;
+	margin:10px 20px;
+}
+#intro_box #intro_detail{
+	width:620px;
+	float:left;
+	height:100px;
+	padding:5px 0;
+	margin-left:30px;
+}
+#intro_box #intro_detail span{
+	font-size:15px;
+	color:#256cc9;
+	font-weight:bold;
+	margin-top:10px;
+}
+#intro_box #intro_detail .zi{
+	margin:25px auto;
+	line-height:25px;
+}
+#intro_box #intro_detail a{
+	color:#5f6466;
+}
+#select_box{
+	width:800px;
+	float:left;
+}
+#select_box #pic_box{
+	width:800px;
+	height:130px;
+	margin:10px 10px;
+}
+#select_box #pic_box>div{
+	width:340px; 
+	height:130px;
+	border:1px solid #b2b7ba;
+	border-radius:10px;
+}
+#date_box #fazhan{
+	padding:7px 0;
+	color:#5389d1;
+	font-size:14px;
+}
+#date_box #fazhan b{
+	width:2px;
+	height:10px;
+	background-color:#5389d1;
+	height:20px;
+	float:left;
+	margin-right:10px;
+}
+.red{
+	color:#f52640;
+	font-size:13px;
+	display:inline-block;
+	float:right;
+	margin-right:20px;
+}
+#pic_box #zizhi p{
+	font-size:15px;
+	margin:5px 15px;
+	color:#256cc9;
+	font-weight:bold;
+}
+#pic_box #zizhi img{
+	margin-top:0;
+	margin-right:23px;
+}
+.ziti{
+	font-size:13px;
+	font-weight:bold;
+	line-height:23px;
+	float:left;
+}
+#pic_box #zhili{
+	margin-right:10px;
+}
+#pic_box #zhili>#xiao{
+	
+	height:130px;
+	width:100px;
+}
+#pic_box #zhili #miaosu{
+	width:230px;
+	
+}
+#pic_box #zhili span{
+	border-radius:10px;
+	border:1px solid #b2b7ba;
+	font-size:15px;
+	color:#256cc9;
+	font-weight:bold;
+	
+}
+#pic_box #zhili p{
+	font-size:15px;
+	color:#256cc9;
+	font-weight:bold;
+	margin-top:5px;
+}
+.picMarquee-left{   overflow:hidden; position:relative;  border:1px solid #ccc;   }
+.picMarquee-left .hd{ overflow:hidden;  height:30px; background:#f4f4f4; padding:0 10px;  }
+.picMarquee-left .hd .prev,.picMarquee-left .hd .next{ display:block;  width:5px; height:9px; float:right; margin-right:5px; margin-top:10px;  overflow:hidden;
+			 cursor:pointer; background:url("../images/arrow.png") no-repeat;}
+.picMarquee-left .hd .next{ background-position:0 -50px;  }
+.picMarquee-left .hd .prevStop{ background-position:-60px 0; }
+.picMarquee-left .hd .nextStop{ background-position:-60px -50px; }
+.picMarquee-left .bd{ padding:10px;   }
+.picMarquee-left .bd ul{ overflow:hidden; zoom:1; }
+.picMarquee-left .bd ul li{ margin:0 14px; float:left; _display:inline; overflow:hidden; text-align:center;  }
+.picMarquee-left .bd ul li .pic{ text-align:center; }
+.picMarquee-left .bd ul li .pic img{ width:120px; height:90px; display:block; padding:2px; border:1px solid #ccc; }
+.picMarquee-left .bd ul li .pic a:hover img{ border-color:#999;  }
+.picMarquee-left .bd ul li .title{ line-height:24px;   }
+
+
+ .picMarquee-left  #guanhuai p{
+	width:50px;
+    border-radius:10px;
+	border:1px solid #b2b7ba;
+	font-size:10px;
+	color:#fefffb;
+	background:linear-gradient(to top,#256cc9,#1b5090);
+	margin-top:6px;
+	
+}
+ #date_box{
+	width:180px;
+	
+	float:right;
+}
+#date_box ul li p{
+	border:1px solid transparent;
+	border-radius:10px;
+	background-color:#e5e7e9;
+	height:30px;
+	text-align:center;
+	margin-top:7px;
+}
+#date_box ul  li div.content{
+	height:58px;
+	background-color:#fff;
+	border:1px solid #333;
+	margin-top:0;
+	display:none;
+}
+#date_box ul  li div.content a{
+	font-size:10px;
+	color:#000;
+}
+#date_box ul li p a{
+	color:#5389d1;
+	font-size:12px;
+
+}
+
+#date_box ul  li div.cur a{
+	font-size:10px;
+	color:#000;
+}
+#date_box ul  li div.cur{
+	height:58px;
+	background-color:#fff;
+	border:1px solid #333;
+	margin-top:0;
+	display:block;
+
+}

@@ -1,0 +1,111 @@
+/**通用样式*/
+*{
+	margin:0;
+	font-size:12px;
+	color:#373232;
+}
+a{text-decoration:none;}
+/***********************************************/
+/* 页头logo*/
+#top_logo{
+	width:100%;
+	background:#D5D5D5;
+	padding-bottom:10px;
+}
+#top_logo>div{
+	width:1000px;
+	margin:0 auto;
+	position:relative;
+}
+#top_logo img{
+	margin-top:20px;
+	margin-bottom:25px;
+}
+#top_logo .banben{
+	position:absolute;
+	top:10px;
+	right:40px;
+}
+#top_logo div.search_box{
+	width:350px;
+	position:absolute;
+	top:50px;
+	right:-10px;
+}
+.search_box>select{
+	border:1px solid #fff;
+	background:#D5D5D5;
+	padding:9px;
+}
+.search_box>input{
+	border:1px solid #373232;
+	background:#D5D5D5;
+	line-height:34px;
+	padding:0 5px;
+}
+.search_box>button{
+	border:1px solid transparent;
+	background:#256CC9;
+	color:#fff;
+	outline:none;
+	width:60px;
+	line-height:32px;
+	text-align:right;
+	position:relative;
+	border-radius:3px;
+}
+.search_box>button>img{
+	position:absolute;
+	top:-8px;
+	left:8px;
+}
+/*导航*/
+.nav{
+	height:52px;
+	background:linear-gradient(to bottom,#F3F3F4,#747373);
+}
+
+.nav>ul{
+	text-align:center;
+	width:960px;
+	margin:0 auto;
+}
+.nav>ul>li{
+	display:inline-block;
+	margin:0 10px;
+	position:relative;
+}
+.nav>ul>li:hover{
+	background-color: #fff;
+}
+
+.status{
+	background-color: #fff;
+}
+.nav li>a{
+	font-weight:bold;
+	font-size:14px;
+	display:inline-block;
+	line-height:52px;
+	/*text-align:center;*/
+	padding:0 14px;
+}
+.box{ width:340px; position:absolute; z-index:996; top:52px;left:0; display:none; background:#fff;color:#333; padding:10px; font-size:12px; font-weight:normal;}
+.box dd{ width:100px; line-height:30px; float:left;text-align:center;}
+.box dd a{ color:#333;}
+.box dd a:hover{ color:#14336a; text-decoration:underline;}
+.box dt{ width:132px; float:right;}
+.box dt img{width:120px; height:74px; border:1px solid #d6dee7; display: block; padding:5px;}
+
+.box1{ width:340px; position:absolute; z-index:996; top:52px;right:0;display:none; background:#fff;color:#333; padding:10px; font-size:12px; font-weight:normal;}
+.box1 dd{ width:100px; line-height:24px; float:left;text-align:center;}
+.box1 dd a{ color:#333;}
+.box1 dd a:hover{ color:#14336a; text-decoration:underline;}
+.box1 dt{ width:132px; float:right;}
+.box1 dt img{ width:120px; height:74px; border:1px solid #d6dee7; display: block; padding:5px;}
+
+.red {
+	background: #fff!important;
+	color: #666!important;
+	display: block;
+}

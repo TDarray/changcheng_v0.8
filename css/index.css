@@ -1,0 +1,108 @@
+.overflow{
+	overflow:hidden;
+}
+#slider{
+	width:100%;
+	height:387px;
+	overflow:hidden;
+	position:relative;
+}
+ul{
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+		
+#imgs{
+	position:relative;
+	display:block;
+}
+
+#imgs a{
+	position:absolute;
+	top:0;
+	opacity:0;
+	display:block;
+	height:350px;
+}
+#imgs a.active{
+	z-index:10;
+	opacity:1;
+}
+
+#indexs{
+	display:block;
+	position:absolute;
+	bottom:0;
+	left:50%;
+	margin-left:-160px;
+	height:40px;
+}
+#indexs li.hover{
+	background:#e4393c;
+}
+#indexs>li{
+	width:20px;
+	height:20px;
+	border-radius:50%;
+	background:#ddd;
+	display:inline-block;
+	margin:10px 10px;
+}
+#slider #indexs li:hover,#slider #indexs li.hover{
+	background:#b61b1f;
+}
+
+#site_notice{
+	width:1000px;
+	margin:20px auto;
+	min-height:200px;
+	font-weight:bold;
+}
+#site_notice #notice{
+	height:30px;
+	background:#f4f4f4;
+	padding:10px 0 0 5px;
+	margin-bottom:20px;
+}
+#site_notice #notice b{
+	font-size:15px;
+}
+.txtScroll-top{ width:450px;  overflow:hidden; position:relative; margin-top: 10px; }
+.txtScroll-top .hd{ overflow:hidden;  height:30px; background:#f4f4f4; padding:0 10px;  }
+.txtScroll-top .hd .prev,.txtScroll-top .hd .next{ display:block;  width:9px; height:5px; float:right; margin-right:5px; margin-top:10px;  overflow:hidden;
+	cursor:pointer; background:url("img/icoUp.gif") no-repeat;}
+.txtScroll-top .hd .next{ background:url("img/icoDown.gif") no-repeat;  }
+.txtScroll-top .hd ul{ float:right; overflow:hidden; zoom:1; margin-top:10px; }
+.txtScroll-top .hd ul li{ float:left;  width:9px; height:9px; overflow:hidden; margin-right:5px; text-indent:-999px; cursor:pointer; background:url("images/icoCircle.gif") 0 -9px no-repeat; }
+.txtScroll-top .hd ul li.on{ background-position:0 0; }
+.txtScroll-top .infoList li{ height:24px; line-height:24px;   }
+.txtScroll-top .infoList li .date{ float:right; color:#999;  }
+
+#site_notice #notice a,#site_notice #en_news #msg li a{
+	color:#000;
+}
+#site_notice #en_news #msg{
+	margin:40px 0 0 20px;
+	width:150px;
+}
+#site_notice #en_news #msg li{
+	margin:20px 0;
+	line-height:20px;
+}
+#site_notice #en_news #stock{
+	margin-right:10px;
+	width:307px;
+}
+#site_notice #en_news #stock ul{
+	margin-left:7px;
+}
+#site_notice #en_news #stock ul li{
+	float:left;
+	width:150px;
+	line-height:29px;
+}
+#site_notice #en_news #stock ul li img{
+	width:10px;
+	margin-right:15px;
+}

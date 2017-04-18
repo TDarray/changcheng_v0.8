@@ -1,0 +1,141 @@
+#news *{
+	margin:0;
+	padding:0;
+}
+#news a{
+	text-decoration:none;
+	color:#333;
+}
+#news a:hover{
+	color:#0066ff;
+}
+#news .overflow{
+	overflow:hidden;
+}
+#news ul{
+	list-style:none;
+}
+#news .lf{
+	float:left;
+}
+#news .rt{
+	float:right;
+}
+#news{
+	width:998px;
+	margin:0 auto;
+	min-height:200px;
+	border:1px solid #eee;
+}
+#news #home_page{
+	background:#f1f4f6;
+	width:100%;
+	height:40px;
+	color:#666;
+	font-weight:bold;
+	font-size:14px;
+	padding:15px 0 0px 40px;
+}
+#news #container{
+	margin:20px 40px;
+}
+#news #container #news_nav{
+	width:200px;
+	float:left;
+	margin-right:20px;
+}
+#news #container #news_nav ul{
+	margin-bottom:33px;
+}
+#news #container #news_nav ul li{
+	background-color:#89bbdf;
+	border:1px solid #b4d3e8;
+	line-height:44px;
+	text-align:center;
+}
+#Rankings10 li  a{
+	color:#fff;
+	font-size:14px;
+
+}
+#Rankings10 li .FirstHover {
+	position:relative;
+	overflow:hidden;
+	display:none;
+
+
+}
+#Rankings10 li.cur .First {
+	display:none;
+}
+#Rankings10 li.cur .FirstHover {
+	display:block;
+
+}
+#Rankings10 li .FirstHover dl dt{
+	background-color:#256cc9;
+	text-align: left;
+	padding-left: 20px;
+}
+#Rankings10 li .FirstHover dl dt a{
+	 overflow:hidden;
+ }
+#Rankings10 li .FirstHover dl dt a{
+	overflow:hidden;
+}
+#Rankings10 li .FirstHover dl span{
+	display:inline-block;
+	overflow:hidden;
+	width:0px;
+	height:0px;
+	border-width:6px 0 6px 6px;
+	border-style:solid;
+	border-color:transparent #fff;
+	margin-left: 10px;
+}
+#Rankings10 li  a:hover{
+	color:#eaeaea;
+	font-size:14px;
+}
+
+
+#news #container #content>ul>li{
+	padding-left:40px;
+	height:46px;
+	line-height:46px;
+	width:658px;
+	font-size:13px;
+	position:relative;
+}
+#news #container #content>ul>li>a{
+	color:#383737;
+}
+#news #container #content>ul>li>span{
+	float:right;
+	margin-right:20px;
+	color:#606061;
+}
+#news #container #content>ul>li.con_back{
+	background:#ececed;
+}
+#news #container #content>ul>li>#page{
+	font-size:10px;
+	margin-left:160px;
+	line-height:12px;
+	position:absolute;
+	bottom:0;
+}
+#news #container #content>ul>li>#page>li{
+	float:left;
+	padding:0 8px;
+}
+
+/*footer*/
+.zibotboxout1{ width:100%; height:200px; float:left; background:url(../img/bottom2_bg1.gif) repeat-x;}
+
+.zibotboxout{ width:100%; height:110px; padding:80px 0 10px 0; float:left; background:url(../img/bottom2_bg.jpg) center no-repeat;}
+.zibotbox{ width:1024px; margin:0 auto;height:110px;}
+.zidilef{ width:265px; height:46px; float:left; padding-left:44px; padding-top:10px;}
+.zidilef img{ width:265px; height:46px; display:block;}
+
+.zidirig{ width:600px; padding-top:5px; padding-right:20px; float:right; line-height:25px; text-align:right;}

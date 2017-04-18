@@ -1,0 +1,113 @@
+/**当前位置可以作为公共样式设置*/
+#main #main_content{margin-bottom:20px;}
+#main #main_content>div.location{
+	width:1000px;
+	margin:10px;
+	background:#F1F4F6;
+	margin:0 auto;
+}
+#main_content>div.location>p{
+	padding:10px;
+	font-weight:bold;
+}
+/*详细信息*/
+#main_content #details{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+	margin-top:30px;
+}
+#details .lf{
+	width:238px;
+	float:left;
+}
+ul{
+	list-style:none;
+}
+#details .lf>ul{
+	padding-left:38px;
+}
+#details .lf>ul>li{
+	width:174px;
+	line-height:45px;
+	padding-left:28px;
+	background:#89bbdf;
+	border-bottom:1px solid #fff;
+	position:relative;
+}
+#details .lf ul>li:last-child{
+	border-bottom:none;
+}
+#details .lf>ul:first-child>li>a{
+	color:#fff;
+	font-size:16px;
+	font-weight:bold;
+}
+#details .lf ul:first-child>li>b{
+	display:inline-block;
+	border:5px solid transparent;
+	border-left-color:#fff;
+	position:absolute;
+	top:20px;
+	right:25px;
+	display:none;
+}
+/***暂时用css hover 需修改为js mouseenter事件*************/
+#details .lf ul:first-child>li:hover{
+	background:#246cc9;
+}
+#details .lf div.notice{
+	margin-left:38px;
+	margin-top:25px;
+	width:200px;
+	border:1px solid #c3c3c3;
+}
+#details .lf div.notice>p{
+	line-height:28px;
+	font-size:16px;
+	font-weight:bold;
+	background:#ececed;
+	position:relative;
+}
+#details .lf .notice>p>a{
+	position:absolute;
+	top:6px;
+	right:15px;
+	color:#246cc9;
+}
+#details .lf .notice>ul{
+	padding-left:8px;
+	margin-top:18px;
+	/*padding-bottom:2px;*/
+}
+#details .notice ul>li{
+	line-height:30px;
+	padding-left:10px;
+}
+#details .notice ul>li>b{
+	display:inline-block;
+	border:3px solid red;
+	border-radius:50%;
+	margin-right:5px;
+}
+#details>img{
+	float:left;
+	margin:0 12px;
+}
+
+#details #tb_integers{
+	float:left;
+	border:1px solid #ddd;
+	border-collapse:collapse;
+	width:580px;
+	height:596px;
+}
+#tb_integers thead th{
+	color:#246cc9;
+	line-height:50px;
+}
+#tb_integers td,th{
+	border:1px solid #ddd;
+	text-align:center;
+	font-weight:bold;
+}

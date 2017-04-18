@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> new document </title>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" href="css/information.css">
+    <link rel="stylesheet" href="css/page_head.css">
+    <link rel="stylesheet" href="css/page_foot.css">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+<div id="header"></div>
+
+<div>
+    <div id='slider' class="overflow">
+        <ul id="imgs"></ul>
+        <ul id="indexs"></ul>
+    </div>
+</div>
+<section id="main" class="clear">
+    <div id="xiaomain">
+        <div id="nav">
+            当前位置：首页&gt;&gt;关于长城信息
+        </div>
+        <div id="main_box">
+            <div id="intro_box">
+                <div id="intro_head"><p>公司</p><br>
+
+                    <p>简介</p></div>
+                <img src="img/imges2-1.png">
+
+                <div id="intro_detail">
+                    <span>长城信息产业股份有限公司</span><br>
+
+                    <p class="zi">长城信息产业有限公司始创页1969年，是中国电子信息产业集团有限公司控股 子公司，中国软件百强企业和湖南省重点支持的骨干企业。<a href="#">{查看详情}</a>
+                    </p>
+                </div>
+            </div>
+            <div id="select_box">
+                <div id="pic_box" class="lf">
+                    <div id="zizhi" class="lf">
+                        <p class="lf">荣誉资质</p>
+                        <a class="red" href="#">MORE</a>
+                        <img src="img/btns2-1.png" class="rt">
+
+                        <span class="ziti">&nbsp;&nbsp;&nbsp;&nbsp;长城信息在技术研发，经营业绩和企业文化建设方面取得累累硕果，荣获国家、省、市的多个殊荣。</span>
+                    </div>
+                    <div id="zhili" class="rt">
+                        <div id="xiao" class="lf">
+                            <span class="lf">公司治理</span>
+                            <img src="img/imges2-2.png" class="lf">
+                        </div>
+                        <div class="rt" id="miaosu">
+                            <a class="red" href="#">MORE</a>
+
+                            <p>董事会成员</p>
+                            <img src="img/btns2-2.png">
+
+                            <div class="ziti">董事长：何明。独立董事：武士国、张玉川、于新培。董事：戴湘桃、将爱国、张安安、黎军。</div>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="picMarquee-left">
+
+                    <div id="guanhuai" class="hd">
+                        <p>领导关怀</p>
+                    </div>
+
+                    <div class="bd">
+                        <ul class="picList">
+                            <li>
+                                <div class="pic"><a href="#"><img src="img/imges2-3.png"/></a></div>
+                            </li>
+                            <li>
+                                <div class="pic"><a href="#"><img src="img/imges2-4.png"/></a></div>
+                            </li>
+                            <li>
+                                <div class="pic"><a href="#"><img src="img/imges2-5.png"/></a></div>
+                            </li>
+                            <li>
+                                <div class="pic"><a href="#"><img src="img/imges2-6.png"/></a></div>
+                            </li>
+                            <li>
+                                <div class="pic"><a href="#"><img src="img/imges2-7.png"/></a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+            <div id="date_box">
+
+                <div id="fazhan">发 展 历 程
+                    <b></b>
+                    <a class="red" href="#">MORE</a>
+                </div>
+
+                <ul>
+                    <li>
+                        <p class="one">
+                            <a href="#">21世纪</a>
+                        </p>
+
+                        <div class="cur">
+                            <a href="#">“银医”一卡通项目得到了温家宝总理、李克强副总理的肯定和重要批示</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="one">
+                            <a href="#">20世纪90年代</a>
+                        </p>
+
+                        <div class="content">
+                            <a href="#">“银医”一卡通项目得到了温家宝总理、李克强副总理的肯定和重要批示</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="one">
+                            <a href="#">20世纪80年代</a>
+                        </p>
+
+                        <div class="content">
+                            <a href="#">“银医”一卡通项目得到了温家宝总理、李克强副总理的肯定和重要批示</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="one">
+                            <a href="#">20世纪70年代</a>
+                        </p>
+
+                        <div class="content">
+                            <a href="#">“银医”一卡通项目得到了温家宝总理、李克强副总理的肯定和重要批示</a>
+                        </div>
+                    </li>
+                    <li>
+                        <p class="one">
+                            <a href="#">20世纪60年代</a>
+                        </p>
+
+                        <div class="content">
+                            <a href="#">“银医”一卡通项目得到了温家宝总理、李克强副总理的肯定和重要批示</a>
+                        </div>
+                    </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+<div id="footer"></div>
+
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+
+<script type="text/javascript">
+    jQuery(".picMarquee-left").slide({
+        mainCell: ".bd ul",
+        autoPlay: true,
+        effect: "leftMarquee",
+        vis: 5,
+        interTime: 50
+    });
+</script>
+<script>
+    $(function () {
+        $("#date_box ul  li p").hover(function () {
+
+            $(this).next().addClass("cur");
+
+            $(this).next().removeClass("content");
+
+        }, function () {
+
+            $(this).next().addClass("content");
+
+            $(this).next().removeClass("cur");
+
+        });
+    });
+
+    $('#header').load('data/page_head.php');
+    $('#footer').load('data/page_foot.php');
+</script>
+</body>
+</html>

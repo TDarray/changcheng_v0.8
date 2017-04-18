@@ -1,0 +1,54 @@
+/************************   products_solutions 页面   ****************************/
+#main #main_content>div.location{
+	width:1000px;
+	margin:10px;
+	background:#F1F4F6;
+	margin:0 auto;
+}
+#main_content>div.location>p{
+	padding:10px;
+}
+#main_content .details{
+	width:1000px;
+	margin:0 auto;
+	overflow:hidden;
+	
+}
+#main_content .details .middle{
+	margin:0 41px;
+}
+#main_content div.details ul.lf,#main_content div.details ul.others{
+	list-style:none;
+	margin-top:30px;
+	float:left;
+}
+#main_content div.details ul.lf{
+	padding:0;
+}
+#main_content div.details ul>li{
+	width:306px;
+	margin-bottom:20px;
+	line-height:30px;
+}
+#main_content div.details ul>li:first-child{
+	text-align:center;
+}
+#main_content div.details ul>li>a{
+	font-size:16px;
+	font-weight:bold;
+	color:black;
+}
+
+
+
+/********************************  service 页面   ******************************/
+#main_content div.service>ul.others{
+	padding:0;
+	margin-left:20px;
+}
+#main_content div.service>ul>li{
+		width:235px;
+}
+#main_content div.service>ul>li>a{
+	color:#5e93d7;
+}

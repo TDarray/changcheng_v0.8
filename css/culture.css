@@ -1,0 +1,76 @@
+/*通用*/
+body {
+	font: 12px "microsoft yahei", Arial, Helvetica, sans-serif;
+	color:#666;
+    margin:0px;
+    padding:0px;
+}
+ul,li,p,h1,h2,h3,h4,h5,h6,dl,dt,dd {
+    margin:0px;
+    padding:0px;
+    border:none;
+    list-style:none;
+}
+a{text-decoration:none;
+	
+}
+input {border:none;}
+.lf   {float:left;}
+.rt  {float:right;}
+.clear  {clear:both;}
+/*中间部分*/
+#main{
+	width:1000px;
+	overflow:hidden;
+	margin:20px auto;
+}
+#main #nav{
+	font-size:15px;
+	font-weight:bold;
+	color:#2d2e2f;
+	background-color:#f1f4f6;
+	width:1000px;
+	line-height:50px;
+	float:left;
+}
+#main_box div.p_box{
+	width:450px;
+	border:1px solid #eee;
+	margin-top:20px ;
+	margin-left:40px;
+	float:left;
+
+}
+#main_box div.p_box>img{
+	margin:15px 10px;
+	float:left;
+}
+#main_box div.t_box{
+	float:left;
+	color:#256cc9;
+	font-weight:bold;
+	font-size:13px;
+	line-height:10px;
+	border-bottom:1px solid #eee;
+	margin-top:30px;
+	width:220px;
+	padding-bottom:5px;
+}
+#main_box div.t_box img{
+	margin:0 5px;
+}
+#main_box div.w_box{
+	line-height:20px;
+	color:#1b1c1c;
+	font-weight:bold;
+	margin-top:10px;
+	float:left;
+	width:220px;
+}
+div.t_box>a{
+	display:inline-block;
+	width:220px;
+	float:right;
+	font-size:15px;
+	color:#246cc9;
+}

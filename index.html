@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title> new document </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/page_head.css">
+    <link rel="stylesheet" href="css/page_foot.css">
+    <link rel="stylesheet" href="css/index.css">
+    <style>
+
+    </style>
+</head>
+
+<body>
+<div id="header"></div>
+
+<div id='main'>
+    <div id='slider' class="overflow">
+        <ul id="imgs"></ul>
+        <ul id="indexs"></ul>
+    </div>
+
+
+    <div id="site_notice">
+        <div id="notice">
+            <b>  网站公告：</b>&nbsp;&nbsp;
+            <div class="txtScroll-top">
+                <div class="bd">
+                    <ul class="infoList">
+                        <li><span class="date">2016-11-11</span><a href="http://www.SuperSlide2.com" target="_blank">长城信息第六届监事会第九次会议决议公告</a></li>
+                        <li><span class="date">2016-12-01</span><a href="http://www.SuperSlide2.com" target="_blank">长城信息第六届董事会第二十次会议决议公告</a></li>
+                        <li><span class="date">2017-01-13</span><a href="http://www.SuperSlide2.com" target="_blank">长城信息第六届董事会第十八次会议决议公告</a></li>
+                        <li><span class="date">2017-02-21</span><a href="http://www.SuperSlide2.com" target="_blank">长城信息第六届董事会第十九次会议决议公告</a></li>
+                        <li><span class="date">2017-03-11</span><a href="http://www.SuperSlide2.com" target="_blank">长城信息产业股份有限公司2014年第二次临时股东大会</a></li>
+                        <li><span class="date">2017-04-03</span><a href="http://www.SuperSlide2.com" target="_blank">长城信息第六届董事会第十八次会议决议公告</a></li>
+                        <li><span class="date">2017-04-11</span><a href="http://www.SuperSlide2.com" target="_blank">长城信息第六届董事会第十七次会议决议公告</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div id="en_news" class="overflow">
+            <img src="img/imges1.png" class="lf">
+            <ul class="lf" id="msg">
+                <li>
+                    <img src="img/btns1.png" alt="">&nbsp;
+                    <a href="#">国家工信部运行监测协调副局长</a>
+                </li>
+                <li>
+                    <img src="img/btns1.png" alt="">&nbsp;
+                    <a href="#">长城信息荣获长沙高新区多项荣誉</a>
+                </li>
+                <li>
+                    <img src="img/btns1.png" alt="">&nbsp;
+                    <a href="#">新长城总裁陈小军拜会长沙市长陈文浩</a>
+                </li>
+                <li>
+                    <img src="img/btns1.png" alt="">&nbsp;
+                    <a href="#">长沙市委副书记、代市长陈文浩调研中电软件园</a>
+                </li>
+            </ul>
+            <div id="stock" class="rt">
+                <img src="img/imges2.png" alt="">
+                <ul class="overflow">
+                    <li><img src="img/btns1.png" alt="">金融信息化</li>
+                    <li><img src="img/btns1.png" alt="">国防信息化</li>
+                    <li><img src="img/btns1.png" alt="">医疗信息化</li>
+                    <li><img src="img/btns1.png" alt="">软件园区开发</li>
+                    <li><img src="img/btns1.png" alt="">电子产品制造</li>
+                    <li><img src="img/btns1.png" alt="">软件与系统集</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</div>
+<div id="footer"></div>
+
+
+<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+<script src="js/index.js"></script>
+<script type="text/javascript" src="js/jquery.SuperSlide.2.1.1.js"></script>
+<script type="text/javascript">
+
+    jQuery(".txtScroll-top").slide({mainCell:".bd ul",autoPage:true,effect:"topLoop",autoPlay:true,vis:1});
+    $('#header').load('data/page_head.php');
+    $('#footer').load('data/page_foot.php');
+
+</script>
+
+
+</body>
+</html>
